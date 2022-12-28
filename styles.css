@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first {
+    background-color: #1F2937;
+    color: #ffffff;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+/* targets shinra logo */
+div > img:first-child {
+    width:5%;
+    height:5%;
+}
+
+.shinra-greeting {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
